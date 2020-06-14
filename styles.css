@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
 a:hover {
   color: green;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: lightblue;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: black;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -62,7 +62,7 @@ a:hover {
 }
 .main-nav a:hover {
   color: orange;
-  transition: 1.5s;
+  transition: .9s;
 }
 
 header {
@@ -98,7 +98,7 @@ header .profile-image:hover {
   margin: 10px auto; 
 } 
 
-.card h2{
+.card h2 {
   font-style: italic;
 }
 .tag:hover {
@@ -124,7 +124,7 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: orange;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 ul.skills {
@@ -145,23 +145,16 @@ ul.skills {
   background: #0399ff;
 }
 
-.hobbies-page {
-  background: lightblue;
-}
-
-.article-heading {
-  font-size: 35px;
-}
-
-.main-heading,
-.sub-headings {
+.sub-headings,
+h4 {
   font-style: italic;
   text-align: center;
+  border-radius: 4px;
+  display: inline-block;
+  background: green;
+  color: white;
+  padding: 4px 8px;
 }
-.sub-headings {
-  color: orange;
-}
-
 .sub-header{
   font-family: cursive;
   text-decoration: underline;
@@ -175,28 +168,24 @@ ul.skills {
   font-style: italic;
   font-size: 60px;
   text-align: right;
-  margin-right: 70px;
+  margin-right: 100px;
+  text-shadow: 2px 2px 0px green;
 }
 
-.coding-image,
-.coding-image2,
-.coding-image3,
-.coding-image4,
-.coding-image5 {
-  margin-bottom: 50px;
-  width: 80%;
-  height: 200px;
+.coding-image {
+  margin-bottom: 20px;
   border-radius: 5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+.coding-image:hover {
+  transform: scale(1.1);
+}
 
 .wrap { 
   text-align: left;
   padding: 20px;
-  background-color: black;
-  color: white
 }
 
 footer {
@@ -260,28 +249,28 @@ a.social:hover {
     min-height: 470px;
   }
 
+  .article-heading {
+    font-size: 35px;
+  }
+
   .nav {
     max-width: 1200px;
     padding: 0 30px;
   }
 
-.coding-image,
-.coding-image2,
-.coding-image3,
-.coding-image4,
-.coding-image5 {
-  width: 600px;
-  height: 400px;
-}
+  .coding-image {
+    width: 450px;
+    height: 350px;
+  }
 
-.links li {
-  font-size: 25px;
-  padding: 0 20px;
-}
+  .links li {
+    font-size: 25px;
+    padding: 0 20px;
+  }
 
-.wrap {
-  padding: 70px;
-}
+  .wrap {
+    padding: 20px;
+  }
 
   main p {
     line-height: 1.6em;
