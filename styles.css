@@ -145,6 +145,14 @@ ul.skills {
   background: #0399ff;
 }
 
+.hobbies-page {
+  background: lightblue;
+}
+
+.article-heading {
+  font-size: 35px;
+}
+
 .main-heading,
 .sub-headings {
   font-style: italic;
@@ -154,8 +162,20 @@ ul.skills {
   color: orange;
 }
 
+.sub-header{
+  font-family: cursive;
+  text-decoration: underline;
+}
+
 .img-hobbies {
  border-radius: 20px;
+}
+
+.hobbies-header {
+  font-style: italic;
+  font-size: 60px;
+  text-align: right;
+  margin-right: 70px;
 }
 
 .coding-image,
@@ -174,7 +194,7 @@ ul.skills {
 
 .wrap { 
   text-align: left;
-  padding: 40px;
+  padding: 20px;
   background-color: black;
   color: white
 }
@@ -262,10 +282,6 @@ a.social:hover {
 .wrap {
   padding: 70px;
 }
-
-  main {
-    padding-top: 20px;
-  }
 
   main p {
     line-height: 1.6em;
